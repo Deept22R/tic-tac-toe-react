@@ -1,38 +1,65 @@
-.App {
+body{
+  background-image: url("https://hipconation.com/wp-content/uploads/2018/08/background-website-26-hd-wallpaper-background-and-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h2{
   text-align: center;
+  color: crimson;
+  font-size: 3rem;
+  font-family: 'Reggae One', cursive;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.col{
+  background-color: rgb(167, 160, 156);
+  text-align: center;
+  font-size: 4rem;
+  font-family: 'Rock Salt', cursive;
+  color: rgb(54, 56, 58);
+  display: inline-block;
+  border: solid rgb(83, 83, 80) 3px;
+  border-radius: 15px 50px;
+  height: 115px;
+  width: 115px;
+  cursor: pointer;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.row{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+#turn{
+  color: rgb(166, 187, 133);
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Reggae One', cursive;
+  margin-top: 1rem;
+}
+
+/* body{
+  background-image: url("https://hipconation.com/wp-content/uploads/2018/08/background-website-26-hd-wallpaper-background-and-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.col{
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border: solid 5px yellowgreen;
+  text-align: center;
+  cursor: pointer;
+}
+.row{
+  display: flex;
+  justify-content: center;
+}
+h2{
+  text-align: center;
   color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+#turn{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 15px;
+  color: white;
+} */
